@@ -1,0 +1,10 @@
+### Enviar contato
+POST http://localhost:5053/mensagens
+Content-Type: application/json
+
+{
+    "nome": "Carlos Morcerf",
+    "email": "teste@teste.com",
+    "assunto": "Teste de e-mail",
+    "mensagem": "<p>Este é um teste</p>"
+}
